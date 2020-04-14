@@ -75,7 +75,7 @@ stages:
       artifact: drop
 
 - stage: 'Dev'
-  displayName: 'Deploying to the dev environment with new Web App - Try 3'
+  displayName: 'Deploying to the dev environment with new Web App - Try 4'
   dependsOn: Build
   condition: |
     and
